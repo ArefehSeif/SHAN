@@ -6,6 +6,9 @@ import copy
 import logging
 import logging.config
 
+import random
+import copy
+
 
 # 从cross network中得到启发，对特征进行融合。在这里long_term和short_term的用户表示需要进行combine，
 # 所以想借助多种方式model计算两个representation然后再concat后，利用cross network的想法求最后的user_hybrid
